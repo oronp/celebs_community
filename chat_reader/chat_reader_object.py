@@ -45,10 +45,3 @@ class ChatReaderObject:
 
     def get_unique_authors(self):
         return list(set(self.authors))
-
-
-if __name__ == '__main__':
-    a = ChatReaderObject()
-    a.text_to_df()
-    unique_authors = a.get_unique_authors()
-rint(1)
